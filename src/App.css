@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main h1 {
+  border-bottom: 7px orangered solid;
+}
+
+ul {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  margin: 0 10px;
+  padding: 7px 10px;
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
